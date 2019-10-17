@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
  * @author DengXin
  * @date 2019/10/14 2:28 PM
  */
-@Component
+//@Component
 @Data
 public class CDPlayer implements MediaPlayer {
     private CompactDisc cd;

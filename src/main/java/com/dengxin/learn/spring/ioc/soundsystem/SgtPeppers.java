@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
  * @author DengXin
  * @date 2019/10/14 11:39 AM
  */
-@Component("lonelyHeartsClub")
+//@Component("lonelyHeartsClub")
 public class SgtPeppers implements CompactDisc {
 
     private String title = "Sgt. Pepper's Lonely Hearts Club Band";
