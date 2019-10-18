@@ -6,4 +6,6 @@ package com.dengxin.learn.spring.ioc.soundsystem;
  */
 public interface CompactDisc {
     void play();
+
+    void playTrack(int trackNumber);
 }
