@@ -2,6 +2,7 @@ package com.dengxin.learn.spring.aop;
 
 import com.dengxin.learn.spring.aop.concert.Audience;
 import com.dengxin.learn.spring.aop.concert.ConcertConfig;
+import com.dengxin.learn.spring.aop.concert.Encoreable;
 import com.dengxin.learn.spring.aop.concert.Performance;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -23,8 +24,17 @@ public class ConcertTest {
     @Autowired
     Audience audience;
 
+    @Autowired
+    Encoreable encoreable;
+
     @Test
     public void testTrackCounter() {
         performance.perform();
+    }
+
+    @Test
+    public void testEncoreable() {
+        performance.perform();
+        encoreable.performEncore();
     }
 }

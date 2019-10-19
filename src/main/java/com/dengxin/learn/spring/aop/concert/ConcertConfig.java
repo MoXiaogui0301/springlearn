@@ -24,4 +24,9 @@ public class ConcertConfig {
         return new Police();
     }
 
+    @Bean
+    public EncoreableIntroducer encoreableIntroducer() {
+        return new EncoreableIntroducer();
+    }
+
 }
